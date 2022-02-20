@@ -1,0 +1,23 @@
+{
+    "python.linting.enabled": false,
+    "python.languageServer": "Pylance",
+    "python.analysis.extraPaths": [
+        "src/lib",
+        ".micropy/micropython-v1_18-esp32",
+        ".micropy/micropython-v1_18-docstubs",
+        ".micropy/calendar_display"
+    ],
+    
+    "python.autoComplete.typeshedPaths": [
+        ".micropy/micropython-v1_18-docstubs",
+        ".micropy/micropython-v1_18-esp32",
+        ".micropy/calendar_display"
+    ],
+    "python.analysis.typeshedPaths": [
+        "src/lib",
+        ".micropy/micropython-v1_18-esp32",
+        ".micropy/micropython-v1_18-docstubs",
+        ".micropy/calendar_display"
+    ],
+    "python.linting.pylintEnabled": false
+}
